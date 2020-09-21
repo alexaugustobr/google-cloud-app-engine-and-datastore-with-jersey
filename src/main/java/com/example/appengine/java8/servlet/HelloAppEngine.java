@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.appengine.java8;
+package com.example.appengine.java8.servlet;
 
 // [START example]
 import com.google.appengine.api.utils.SystemProperty;

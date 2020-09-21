@@ -19,6 +19,7 @@ package com.example.appengine.java8;
 import static com.google.common.truth.Truth.assertThat;
 import static org.mockito.Mockito.when;
 
+import com.example.appengine.java8.servlet.HelloAppEngine;
 import com.google.appengine.tools.development.testing.LocalServiceTestHelper;
 import java.io.PrintWriter;
 import java.io.StringWriter;

@@ -1,4 +1,4 @@
-package com.example.appengine.kotlin
+package com.example.appengine.kotlin.servlet
 
 import com.google.appengine.api.utils.SystemProperty
 import java.io.IOException
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse
 
 
 @WebServlet(name = "HelloAppEngineKotlin", value = ["/hello-kotlin"])
-class HelloAppEngine() : HttpServlet() {
+class HelloKotlinEngine() : HttpServlet() {
 
     @kotlin.jvm.Throws(IOException::class)
     public override fun doGet(request: HttpServletRequest, response: HttpServletResponse) {
